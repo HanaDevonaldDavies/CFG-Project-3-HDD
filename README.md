@@ -22,7 +22,6 @@ This project is a SQL-based solution for managing a book club. The database incl
 1. **Download and Install MySQL:**
 
 2. **Clone the Repository:**
-   ```bash
 git clone https://github.com/HanaDevonaldDavies/CFG-Project-3-HDD.git
 cd CFG-assignment-3
 
