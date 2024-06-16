@@ -25,5 +25,5 @@ This project is a SQL-based solution for managing a book club. The database incl
 
 2. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/CFG-Assignments.git
+   git clone https://github.com/HanaDevonaldDavies/CFG-Project-3-HDD.git
    cd CFG-assignment-3
