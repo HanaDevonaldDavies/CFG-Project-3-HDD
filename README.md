@@ -18,11 +18,11 @@ This project is a SQL-based solution for managing a book club. The database incl
 
 ## Installation and Setup
 
-1. **Download and Install MySQL:**
+1. **Download and Install MySQL**
 
 2. **Clone the Repository:**
-git clone https://github.com/HanaDevonaldDavies/CFG-Project-3-HDD.git
-cd CFG-assignment-3
+  git clone https://github.com/HanaDevonaldDavies/CFG-Project-3-HDD.git
+  cd CFG-assignment-3
 
 ## Potential Server Issues
 MySQL had some issues connecting to the server, therefore I have added here some images of the code I created for this project;
