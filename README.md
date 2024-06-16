@@ -8,8 +8,7 @@ This project is a SQL-based solution for managing a book club. The database incl
 - **Database Design:** Includes three tables: Members, Books, and BorrowingRecords.
 - **Data Insertion:** Populates tables with sample data.
 - **Data Retrieval:** Queries to retrieve and display data in various formats.
-- **Data Manipulation:** Commands to update and delete records.
-- **Aggregate Functions:** Utilizes COUNT, AVG, MIN, and MAX functions.
+- **Aggregate Functions:** COUNT, AVG, MIN, and MAX functions.
 - **Stored Procedure:** A stored procedure to retrieve borrowing records for a specific member.
 
 ## Requirements
