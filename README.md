@@ -27,6 +27,38 @@ git clone https://github.com/HanaDevonaldDavies/CFG-Project-3-HDD.git
   cd CFG-assignment-3
 
 ## Potential Server Issues
-MySQL had some issues connecting to the server, therefore I have added here some images of the code I created for this project;
+MySQL had some issues connecting to the server, therefore I have added here some images of the code I created for this project.
+
+# Code Sections and Relevance 
+## Database and Table formation
+ '''SQL
+ CREATE DATABASE BookShop;
+USE BookShop;
+
+CREATE TABLE Customers (
+    CustomerID INT AUTO_INCREMENT PRIMARY KEY,
+    FullName VARCHAR(100) NOT NULL,
+    Email VARCHAR(100) UNIQUE NOT NULL,
+    JoinDate DATE NOT NULL
+);
+
+CREATE TABLE Books (
+    BookID INT AUTO_INCREMENT PRIMARY KEY,
+    Title VARCHAR(255) NOT NULL,
+    Author VARCHAR(255) NOT NULL,
+    PublishedYear YEAR NOT NULL,
+    Genre VARCHAR(50)
+);
+
+CREATE TABLE PurchaseRecords (
+    RecordID INT AUTO_INCREMENT PRIMARY KEY,
+    CustomerID INT,
+    BookID INT,
+    PurchaseDate DATE NOT NULL,
+    Quantity INT NOT NULL,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
+    FOREIGN KEY (BookID) REFERENCES Books(BookID)
+);
+
 
 
