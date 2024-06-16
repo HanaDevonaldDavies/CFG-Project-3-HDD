@@ -15,13 +15,11 @@ This project is a SQL-based solution for managing a book club. The database incl
 ## Requirements
 
 - MySQL Server
-- MySQL Workbench (optional, for GUI-based management)
+- MySQL Workbench 
 
 ## Installation and Setup
 
 1. **Download and Install MySQL:**
-   - Download the MySQL Installer from [MySQL Community Downloads](https://dev.mysql.com/downloads/installer/).
-   - Run the installer and choose the "Developer Default" setup type to install MySQL Server and MySQL Workbench.
 
 2. **Clone the Repository:**
    ```bash
